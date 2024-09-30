@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+}
+#forestTable{
+    max-width: 1200px;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+}
+.forest-data {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.login-form {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+input, select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34495e;
+}
